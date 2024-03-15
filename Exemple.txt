@@ -1,0 +1,234 @@
+ici se trouve des exemples de mes entites pour tester
+**********************************************************************************
+1--utilisateurs---------------------------
+    Utilisateur 1 :
+
+    "nom": "Doe",
+    "prenom": "John",
+    "naissance": "1990-05-15",
+    "photo": "john_doe.jpg",
+    "email": "john.doe@example.com",
+    "mot_passe": "MotDePasse123"
+    Utilisateur 2 :
+
+    "nom": "Smith",
+    "prenom": "Emma",
+    "naissance": "1985-09-20",
+    "photo": "emma_smith.jpg",
+    "email": "emma.smith@example.com",
+    "mot_passe": "Emma1234"
+    Utilisateur 3 :
+
+    "nom": "Garcia",
+    "prenom": "Maria",
+    "naissance": "1992-03-10",
+    "photo": "maria_garcia.jpg",
+    "email": "maria.garcia@example.com",
+    "mot_passe": "Maria5678"
+    Utilisateur 4 :
+
+    "nom": "Chen",
+    "prenom": "Li",
+    "naissance": "1988-11-25",
+    "photo": "li_chen.jpg",
+    "email": "li.chen@example.com",
+    "mot_passe": "ChenLi999"
+    Utilisateur 5 :
+
+    "nom": "Kim",
+    "prenom": "Ji-hye",
+    "naissance": "1995-07-02",
+    "photo": "ji_hye_kim.jpg",
+    "email": "jihye.kim@example.com",
+    "mot_passe": "JiHye123"
+2----Abonnement-----------------------------------------
+    Abonnement 1 :
+    "type_abonnement": "Standard",
+    "duree": 30,
+    "prix": 29.99
+    Abonnement 2 :
+
+    "type_abonnement": "Premium",
+    "duree": 60,
+    "prix": 49.99
+    Abonnement 3 :
+
+    "type_abonnement": "Gold",
+    "duree": 90,
+    "prix": 79.99
+    Abonnement 4 :
+
+    "type_abonnement": "Basic",
+    "duree": 15,
+    "prix": 19.99
+    Abonnement 5 :
+
+    "type_abonnement": "Pro",
+    "duree": 45,
+    "prix": 39.99
+3---Alimentation-------------------------------------
+    Modèle d'alimentation 1 :
+
+    "repas": "Petit déjeuner",
+    "valeur_nutritionnelle": "Équilibré"
+    Modèle d'alimentation 2 :
+
+    "repas": "Déjeuner",
+    "valeur_nutritionnelle": "Protéiné"
+    Modèle d'alimentation 3 :
+
+    "repas": "Collation",
+    "valeur_nutritionnelle": "Léger"
+    Modèle d'alimentation 4 :
+
+    "repas": "Dîner",
+    "valeur_nutritionnelle": "Complexe"
+4-----Contenu-----------------
+    Contenu multimédia de sport 1 :
+
+    "titre": "Entraînement de course à pied",
+    "type": "Vidéo",
+    "auteur": "CoachX",
+    "duree": 45,
+    "langue": "Français"
+    Contenu multimédia de sport 2 :
+
+    "titre": "Guide de musculation pour débutants",
+    "type": "Article",
+    "auteur": "FitY",
+    "duree": 0,
+    "langue": "Anglais"
+    Contenu multimédia de sport 3 :
+
+    "titre": "Séance d'entraînement HIIT",
+    "type": "Vidéo",
+    "auteur": "FitnessZ",
+    "duree": 30,
+    "langue": "Espagnol"
+    Contenu multimédia de sport 4 :
+
+    "titre": "Stratégies de jeu en basketball",
+    "type": "Podcast",
+    "auteur": "CoachA",
+    "duree": 20,
+    "langue": "Allemand"
+    Contenu multimédia de sport 5 :
+
+    "titre": "Yoga pour les sportifs",
+    "type": "Vidéo",
+    "auteur": "YogiB",
+    "duree": 60,
+    "langue": "Portugais"
+5---------------programme-------------------------------
+    "nom": "Programme de Fitness Intensif",
+    "type_progamme": "Fitness",
+    "duree": 60,
+    "tarif": 50.00,
+    "entraineur": "John Doe",
+    "description": "Programme intensif de remise en forme comprenant des séances d'entraînement cardiovasculaire, de musculation et de stretching."
+    Entité 2 :
+
+    "nom": "Cours de Yoga Débutant",
+    "type_progamme": "Yoga",
+    "duree": 45,
+    "tarif": 35.00,
+    "entraineur": "Jane Smith",
+    "description": "Cours de yoga conçu pour les débutants, mettant l'accent sur les postures de base, la respiration et la relaxation."
+    Entité 3 :
+
+    "nom": "Entraînement en Circuit",
+    "type_progamme": "Entraînement",
+    "duree": 90,
+    "tarif": 60.00,
+    "entraineur": "Alex Johnson",
+    "description": "Entraînement en circuit complet comprenant des exercices de cardio, de musculation et de souplesse."
+    Entité 4 :
+
+    "nom": "Programme de Perte de Poids",
+    "type_progamme": "Fitness",
+    "duree": 120,
+    "tarif": 80.00,
+    "entraineur": "Emily Brown",
+    "description": "Programme spécialement conçu pour la perte de poids, combinant exercices cardiovasculaires, renforcement musculaire et conseils nutritionnels."
+    Entité 5 :
+
+    "nom": "Cours de Boxe",
+    "type_progamme": "Sport",
+    "duree": 75,
+    "tarif": 55.00,
+    "entraineur": "Mike Williams",
+    "description": "Cours de boxe pour tous les niveaux, axé sur la technique, le conditionnement physique et la coordination."
+6----suivi_progression-----------------------------------------------------------------------
+
+    Entité 1 :
+
+    "Nom_utilisateur": "Alice123",
+    "mesures_physiques": "Poids: 65 kg, Taille: 170 cm",
+    "objectif": "Perte de poids",
+    "progres": "En cours"
+    Entité 2 :
+
+    "Nom_utilisateur": "JohnDoe87",
+    "mesures_physiques": "Poids: 80 kg, Taille: 180 cm",
+    "objectif": "Gain de masse musculaire",
+    "progres": "Débutant"
+    Entité 3 :
+
+    "Nom_utilisateur": "EmmaFitness",
+    "mesures_physiques": "Poids: 70 kg, Taille: 165 cm",
+    "objectif": "Tonification",
+    "progres": "Avancé"
+    Entité 4 :
+
+    "Nom_utilisateur": "FitMax",
+    "mesures_physiques": "Poids: 75 kg, Taille: 175 cm",
+    "objectif": "Amélioration de l'endurance",
+    "progres": "Intermédiaire"
+    Entité 5 :
+
+    "Nom_utilisateur": "HealthyAnna",
+    "mesures_physiques": "Poids: 60 kg, Taille: 160 cm",
+    "objectif": "Maintien de la forme physique",
+    "progres": "Satisfait"
+7----role-------------------------------------------------------
+    Entité 1 :
+
+    "nom": "Administrateur"
+    Entité 2 :
+
+    "nom": "Modérateur"
+    Entité 3 :
+
+    "nom": "Utilisateur Standard"
+    Entité 4 :
+
+    "nom": "Manager"
+    Entité 5 :
+
+    "nom": "Agent de Support"
+8---equipements----------------------------------------------------
+    Entité 1 :
+
+    "nom": "Tapis de course",
+    "categorie": "Cardio",
+    "etat": "Fonctionnel"
+    Entité 2 :
+
+    "nom": "Haltères",
+    "categorie": "Musculation",
+    "etat": "Neuf"
+    Entité 3 :
+
+    "nom": "Vélo elliptique",
+    "categorie": "Cardio",
+    "etat": "En bon état"
+    Entité 4 :
+
+    "nom": "Banc de musculation",
+    "categorie": "Musculation",
+    "etat": "Usé mais fonctionnel"
+    Entité 5 :
+
+    "nom": "Corde à sauter",
+    "categorie": "Cardio",
+    "etat": "Comme neuf"
