@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "3c5b54ad-f830-461d-8256-564bf43b1a3a",
+		"name": "salleFitnessProgramme",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32949298"
+	},
+	"item": [
+		{
+			"name": "ajout programme",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nom\": \"Programme de Fitness Intensif\",\r\n    \"type_progamme\": \"Fitness\",\r\n    \"duree\": 60,\r\n    \"tarif\": 50.00,\r\n    \"entraineur\": \"John Doe\",\r\n    \"description\": \"Programme intensif de remise en forme comprenant des séances d'entraînement cardiovasculaire, de musculation et de stretching.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:2000/Programme",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2000",
+					"path": [
+						"Programme"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "liste des programmes",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "suppression programme",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:2000/Programme/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2000",
+					"path": [
+						"Programme",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "mise à jour programme",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

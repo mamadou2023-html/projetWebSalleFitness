@@ -1,0 +1,143 @@
+{
+	"info": {
+		"_postman_id": "d175b96b-9bb1-4d49-9f30-ceb6444d1ed4",
+		"name": "salleFitness_utilisateur",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32949298"
+	},
+	"item": [
+		{
+			"name": "ajout utilisateur",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"nom\": \"Smith\",\r\n\"prenom\": \"Emma\",\r\n\"naissance\": \"1985-09-20\",\r\n\"photo\": \"emma_smith.jpg\",\r\n\"email\": \"emma.smith@example.com\",\r\n\"mot_passe\": \"Emma1234\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/Utilisateurs",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"Utilisateurs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "liste utilisateurs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/Utilisateurs",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"Utilisateurs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "mise à jour utilisateur",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"nom\": \"Kim\",\r\n    \"prenom\": \"Ji-hye\",\r\n    \"naissance\": \"1995-07-02\",\r\n    \"photo\": \"ji_hye_kim.jpg\",\r\n    \"email\": \"jihye.kim@example.com\",\r\n    \"mot_passe\": \"JiHye123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:2000/Utilisateurs/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2000",
+					"path": [
+						"Utilisateurs",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Supresson d'un utilisateur",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id_utilisateur\":2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:2000/Utilisateurs/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2000",
+					"path": [
+						"Utilisateurs",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "se sonnecter",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"nom\": \"Doe\",\r\n    \"prenom\": \"John\",\r\n    \"naissance\": \"1990-05-15\",\r\n    \"photo\": \"john_doe.jpg\",\r\n    \"email\": \"john.doe@example.com\",\r\n    \"mot_passe\": \"MotDePasse*123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:2000/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2000",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

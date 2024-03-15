@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "ff003127-9a87-45f0-b067-91a1269e5f53",
+		"name": "salleFitnessMedia",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32949298"
+	},
+	"item": [
+		{
+			"name": "ajout contenu mult",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"titre\": \"Entraînement de course à pied\",\r\n    \"type\": \"Vidéo\",\r\n    \"auteur\": \"CoachX\",\r\n    \"duree\": 45,\r\n    \"langue\": \"Français\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:2000/Contenu_multi_media",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2000",
+					"path": [
+						"Contenu_multi_media"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "liste des contenu multimédia",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "mise à jour contenu multimédia",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:2000/Contenu_multi_media/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2000",
+					"path": [
+						"Contenu_multi_media",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "suppression contenu multimédia",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

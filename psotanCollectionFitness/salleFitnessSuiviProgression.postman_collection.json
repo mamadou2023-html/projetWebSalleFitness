@@ -1,0 +1,97 @@
+{
+	"info": {
+		"_postman_id": "5b7c62b0-6fbe-4c13-b698-5476d1b421c2",
+		"name": "salleFitnessSuiviProgression",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32949298"
+	},
+	"item": [
+		{
+			"name": "liste suivi de progressions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:2000/SuiviProgression",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2000",
+					"path": [
+						"SuiviProgression"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ajout suivi de progression",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"Nom_utilisateur\": \"Alice123\",\r\n    \"mesures_physiques\": \"Poids: 65 kg, Taille: 170 cm\",\r\n    \"objectif\": \"Perte de poids\",\r\n    \"progres\": \"En cours\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:2000/SuiviProgression",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2000",
+					"path": [
+						"SuiviProgression"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "suppression  suivi de progression",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:2000/SuiviProgression/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2000",
+					"path": [
+						"SuiviProgression",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "mise à jour suivi de progression",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:2000/SuiviProgression/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2000",
+					"path": [
+						"SuiviProgression",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

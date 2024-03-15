@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "484e563f-6330-49af-b8e1-e791f7a0c2cb",
+		"name": "sallleFitnesRoles",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32949298"
+	},
+	"item": [
+		{
+			"name": "ajout role",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nom\":\"professeur\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:2000/Role",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2000",
+					"path": [
+						"Role"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "liste roles",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "modifier role",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "supprimer role",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:2000/Role/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2000",
+					"path": [
+						"Role",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
